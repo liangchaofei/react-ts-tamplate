@@ -5,7 +5,6 @@ interface IProps {
   a: number
   b: number
 }
-
 function ComputedOne(props: IProps) {
   const { a, b } = props
   const sum = add(a, b)
